@@ -21,7 +21,7 @@ function calculate() {
             result = Math.pow(num1, num2);
             break;
         case "sqrt":
-            result = Math.pow(num1, 1/num2); // Формула для вычисления корня
+            result = Math.pow(num1, 1/num2); 
             break;
         default:
             result = "неподдерживаемая операция";
